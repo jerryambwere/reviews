@@ -1,9 +1,44 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 101,
+      "reviewer": "Alice Johnson",
+      "rating": 5,
+      "reviewText": "Fantastic product! Exceeded my expectations in every way.",
+      "date": "2024-09-01"
+    },
+    {
+      "id": 2,
+      "productId": 102,
+      "reviewer": "Bob Smith",
+      "rating": 3,
+      "reviewText": "It's okay, but I expected better quality for the price.",
+      "date": "2024-09-02"
+    },
+    {
+      "id": 3,
+      "productId": 103,
+      "reviewer": "Charlie Brown",
+      "rating": 4,
+      "reviewText": "Good value for money. Will definitely buy again.",
+      "date": "2024-09-03"
+    },
+    {
+      "id": 4,
+      "productId": 104,
+      "reviewer": "Diana Prince",
+      "rating": 2,
+      "reviewText": "Not satisfied. The product did not meet my expectations.",
+      "date": "2024-09-04"
+    },
+    {
+      "id": 5,
+      "productId": 105,
+      "reviewer": "Eve Adams",
+      "rating": 4,
+      "reviewText": "Very good quality and fast shipping. Would recommend.",
+      "date": "2024-09-05"
+    }
+  ]
 }
